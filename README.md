@@ -7,7 +7,7 @@
 
     * Schaefer2018_200Parcels_7Networks_order_FSLMNI152_2mm.nii
 	
-2. Spatial maps of leading eigenmodes
+2. Spatial maps of leading basic modes
 
     * Folder HCP 
 
@@ -15,24 +15,24 @@
 
     * Folder Beijing_Zang 
   
->Note: Each folder contains leading eigenmodes obtained from R-fMRI data of the corresponding dataset. For the HCP dataset, leading eigenmodes for REST1 are provided at three spatial resolutions (i.e., 1000, 400 and 200 regions). For sleep-deprivation data, leading eigenmodes of two states (i.e., rested wakefulness and post-sleep deprivation) are provided.
+>Note: Each folder contains leading basic modes obtained from R-fMRI data of the corresponding dataset. For the HCP dataset, leading basic modes for REST1 are provided at three spatial resolutions (i.e., 1000, 400 and 200 regions). For sleep-deprivation data, leading basic modes of two states (i.e., rested wakefulness and post-sleep deprivation) are provided.
 	
 3. Functional connectivity
 	
     * FC_group_original.mat
 
     * FC_group_reconst.mat
->Note: This fold contains the original and reconstructed functional connectivity matrices at the group level. These functional connectivity patterns were obtained from the R-fMRI data of REST1 in the HCP dataset. The reconstructed functional connectivity pattern was obtained based on the five leading eigenmodes.
+>Note: This fold contains the original and reconstructed functional connectivity matrices at the group level. These functional connectivity patterns were obtained from the R-fMRI data of REST1 in the HCP dataset. The reconstructed functional connectivity pattern was obtained based on the five leading basic modes.
 
 
 # Codes
-1. Eigenmode identification
+1. Basicmode identification
  
-    * eigenmode_extract.m
+    * Mode_extract.m
 
-2. Identification of leading eigenmodes
+2. Identification of leading basic modes
 	
-    * calc_leading_eigenmode_number.m
+    * calc_leading_basic_mode_number.m
 
 3. Functional connectivity reconstruction
 	 
